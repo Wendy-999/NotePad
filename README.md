@@ -286,7 +286,7 @@
 7. **运行效果**
 	输入内容进行查询，会动态显示包含该内容的笔记列表：
 
-  ![image](https://github.com/user-attachments/assets/35602936-2a11-4faf-b3fd-ece13e62e1ef)
+ 	 ![image](https://github.com/user-attachments/assets/35602936-2a11-4faf-b3fd-ece13e62e1ef)
 
 	
 	
@@ -301,7 +301,7 @@
 	```
 	更换后效果图：
 	
-  ![image](https://github.com/user-attachments/assets/773038db-545d-48b2-88f2-4d8bd068c9fb)
+ 	 ![image](https://github.com/user-attachments/assets/773038db-545d-48b2-88f2-4d8bd068c9fb)
 
 
 2. **修改`NotePad.java`**：
@@ -421,7 +421,7 @@
 6. **运行效果**：
 	通过以上修改，用户在笔记列表中可以看到每个笔记项的背景颜色与其在编辑器中设置的颜色一致。
 	
-  ![image](https://github.com/user-attachments/assets/7ea2d220-d584-4b94-91ed-020d081903df)
+  	![image](https://github.com/user-attachments/assets/7ea2d220-d584-4b94-91ed-020d081903df)
 
 
 
@@ -642,7 +642,7 @@
 	 进入编辑页面，点击右上角“皮肤”按钮可更换背景颜色，让编辑笔记时的背景色跟笔记列表的该笔记背景色同为一种颜色。
 	如图所示：
  
-  ![image](https://github.com/user-attachments/assets/d825693f-7718-43a2-834c-1c1ee0168e04)
+ 	 ![image](https://github.com/user-attachments/assets/d825693f-7718-43a2-834c-1c1ee0168e04)
 
 
 
@@ -712,7 +712,7 @@
 	        );
 	        setListAdapter(adapter);
 	        return true;
-	    //颜色排序
+	    	//颜色排序
 	    case R.id.menu_sort3:
 	        cursor = managedQuery(
 	                getIntent().getData(),
@@ -735,7 +735,7 @@
 3. **运行效果**
 	点击排序图标，可根据创建时间、修改时间、颜色进行笔记列表的排序，如图所示：
 
-  ![image](https://github.com/user-attachments/assets/1e5b9b10-7179-4142-b687-6a5122a6490a)
+ 	 ![image](https://github.com/user-attachments/assets/1e5b9b10-7179-4142-b687-6a5122a6490a)
 
 
 
